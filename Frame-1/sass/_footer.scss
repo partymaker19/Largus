@@ -1,0 +1,23 @@
+.footer {
+  width: 1500px;
+  margin: 0 auto;
+  h2 {
+    @extend %font-add;
+    @include font($height: 6.3rem, $size: 5rem, $weight: 700);
+    color: $color-dark;
+    margin-left: 114px;
+    margin-bottom: 58px;
+  }
+  p {
+    @extend %font-add;
+    @include font($height: 3.8rem, $size: 3rem, $weight: 700);
+  }
+  &__contacts-block {
+    margin-bottom: 50px;
+    margin-left: 116px;
+  }
+  &__adress-block {
+    margin-bottom: 50px;
+    margin-left: 116px;
+  }
+}

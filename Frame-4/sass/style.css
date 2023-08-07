@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@500&family=Roboto&display=swap");
+.header {
+  display: flex;
+  width: 1500px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.header__list {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.2rem;
+  display: flex;
+  gap: 41px;
+  list-style: none;
+  align-self: center;
+}
+.header__last-child {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-left: 558px;
+}
+.header__list-link {
+  color: #495966;
+  text-decoration: none;
+}
+.header__list-link:hover {
+  color: rgba(73, 89, 102, 0.5);
+  text-decoration: none;
+}
+.header__last-link {
+  color: rgba(73, 89, 102, 0.5);
+  text-decoration: none;
+}
+.header__last-link:hover {
+  color: #495966;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+section,
+main,
+footer,
+header,
+article {
+  display: block;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.largus-add__price::-moz-placeholder, .largus-add__name::-moz-placeholder, .largus-add__description::-moz-placeholder {
+  font-family: "Gelasio", Verdana, sans-serif;
+}
+
+.largus-add__price::placeholder, .largus-add__name::placeholder, .largus-add__description::placeholder, .largus-add h1, .header__list, .header__last-child {
+  font-family: "Gelasio", Verdana, sans-serif;
+}
+
+.largus-add {
+  margin-bottom: 102px;
+}
+.largus-add h1 {
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.3rem;
+  color: #495966;
+  margin-left: 119px;
+  margin-top: 45px;
+  margin-bottom: 71px;
+}
+.largus-add__form {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.largus-add__name {
+  width: 1226px;
+  height: 72px;
+  background: rgba(163, 188, 208, 0.5);
+  border: none;
+}
+.largus-add__description {
+  width: 1226px;
+  height: 302px;
+  background: rgba(163, 188, 208, 0.5);
+  border: none;
+}
+.largus-add__price {
+  width: 1226px;
+  height: 72px;
+  background: rgba(163, 188, 208, 0.5);
+  border: none;
+}
+.largus-add__form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.largus-add input {
+  font-size: 3.5rem;
+}
+.largus-add__input-add {
+  border: none;
+  border-bottom: 2px solid #495966;
+  background-color: transparent;
+  color: #495966;
+  outline: none;
+  font-size: 3.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.largus-add__input-add:hover {
+  color: rgba(73, 89, 102, 0.5);
+}
+.largus-add__input-block {
+  margin-top: 55px;
+}
+
+.largus-add__description::-moz-placeholder {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #495966;
+  text-align: start;
+  transform: translateY(-100px) translateX(20px);
+}
+
+.largus-add__description::placeholder {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #495966;
+  text-align: start;
+  transform: translateY(-100px) translateX(20px);
+}
+
+.largus-add__name::-moz-placeholder {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #495966;
+  text-align: start;
+  transform: translateX(20px);
+}
+
+.largus-add__name::placeholder {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #495966;
+  text-align: start;
+  transform: translateX(20px);
+}
+
+.largus-add__price::-moz-placeholder {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #495966;
+  text-align: start;
+  transform: translateX(20px);
+}
+
+.largus-add__price::placeholder {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #495966;
+  text-align: start;
+  transform: translateX(20px);
+}/*# sourceMappingURL=style.css.map */
