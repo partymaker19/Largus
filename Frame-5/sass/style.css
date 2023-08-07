@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@500&family=Roboto&display=swap");
+.header {
+  display: flex;
+  width: 1500px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.header__list {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.2rem;
+  display: flex;
+  gap: 41px;
+  list-style: none;
+  align-self: center;
+}
+.header__last-child {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-left: 558px;
+}
+.header__list-link {
+  color: #495966;
+  text-decoration: none;
+}
+.header__list-link:hover {
+  color: rgba(73, 89, 102, 0.5);
+  text-decoration: none;
+}
+.header__last-link {
+  color: rgba(73, 89, 102, 0.5);
+  text-decoration: none;
+}
+.header__last-link:hover {
+  color: #495966;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+section,
+main,
+footer,
+header,
+article {
+  display: block;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.largus-change__save-p, .largus-change__list, .largus-change h1, .header__list, .header__last-child {
+  font-family: "Gelasio", Verdana, sans-serif;
+}
+
+.largus-change__save-p, .largus-change__list, .largus-change h1, .header__list, .header__last-child {
+  font-family: "Gelasio", Verdana, sans-serif;
+}
+
+.largus-change h1 {
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.3rem;
+  color: #495966;
+  margin-left: 125px;
+  padding-top: 124px;
+  padding-bottom: 66px;
+}
+.largus-change__img-block {
+  position: relative;
+  width: 1237px;
+  height: 586px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.largus-change__type {
+  position: absolute;
+  left: 52px;
+  top: 50px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.1rem;
+  color: white;
+  width: 550px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  font-size: 3.5rem;
+}
+.largus-change__litr {
+  position: absolute;
+  left: 52px;
+  top: 165px;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: white;
+  width: 550px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  font-size: 3.5rem;
+}
+.largus-change__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  left: 52px;
+  top: 224px;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.2rem;
+  color: white;
+}
+.largus-change__price {
+  position: absolute;
+  left: 52px;
+  top: 440px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5.1rem;
+  color: #f39c36;
+  width: 550px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  outline: none;
+  font-size: 3.5rem;
+}
+.largus-change__save-p {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.8rem;
+  text-align: center;
+  margin-bottom: 68px;
+  margin-top: 55px;
+}
+.largus-change__save {
+  color: #495966;
+}
+.largus-change__save:hover {
+  color: rgba(73, 89, 102, 0.5);
+}
+.largus-change__input {
+  width: 550px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  font-size: 3.5rem;
+}
+.largus-change__input-save {
+  border: none;
+  border-bottom: 2px solid #495966;
+  background-color: transparent;
+  color: #495966;
+  outline: none;
+  font-size: 3.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.largus-change__input-save:hover {
+  color: rgba(73, 89, 102, 0.5);
+}
+.largus-change__input-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  margin-bottom: 68px;
+}
+
+::-moz-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.largus-change__price::-moz-placeholder {
+  color: #f39c36;
+}
+
+.largus-change__price::placeholder {
+  color: #f39c36;
+}/*# sourceMappingURL=style.css.map */

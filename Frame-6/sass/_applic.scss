@@ -1,0 +1,54 @@
+.applic {
+  h1 {
+    @extend %font-add;
+    @include font($height: 6.3rem, $size: 5rem, $weight: 700);
+    color: $color-dark;
+    margin-left: 125px;
+    padding-top: 124px;
+    padding-bottom: 66px;
+  }
+  &__main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 73px;
+  }
+  &__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 284px;
+    height: 62px;
+    background: rgba(163, 188, 208, 0.5);
+    @extend %font-add;
+    @include font($height: 3.8rem, $size: 3rem, $weight: 700);
+    color: $color-dark;
+  }
+  &__first-block {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 16px;
+  }
+  &__second-block {
+    display: flex;
+    gap: 35px;
+  }
+  &__del {
+    color: $color-dark;
+    text-decoration: none;
+  }
+  &__del:hover {
+    color: $color-gray;
+  }
+  &__change {
+    color: $color-dark;
+    text-decoration: none;
+  }
+  &__change:hover {
+    color: $color-gray;
+  }
+}
+
+.orange {
+  background: #f39c36;
+}

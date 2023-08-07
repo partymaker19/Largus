@@ -1,0 +1,82 @@
+.largus-add {
+  margin-bottom: 102px;
+  h1 {
+    @extend %font-add;
+    @include font($height: 6.3rem, $size: 5rem, $weight: 700);
+    color: $color-dark;
+    margin-left: 119px;
+    margin-top: 45px;
+    margin-bottom: 71px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  &__name {
+    width: 1226px;
+    height: 72px;
+    background: rgba(163, 188, 208, 0.5);
+    border: none;
+  }
+  &__description {
+    width: 1226px;
+    height: 302px;
+    background: rgba(163, 188, 208, 0.5);
+    border: none;
+  }
+  &__price {
+    width: 1226px;
+    height: 72px;
+    background: rgba(163, 188, 208, 0.5);
+    border: none;
+  }
+  &__form-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input {
+    font-size: 3.5rem;
+  }
+  &__input-add {
+    border: none;
+    border-bottom: 2px solid #495966;
+    background-color: transparent;
+    color: $color-dark;
+    outline: none;
+    font-size: 3.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  &__input-add:hover {
+    color: $color-gray;
+  }
+  &__input-block {
+    margin-top: 55px;
+  }
+}
+
+.largus-add__description::placeholder {
+  @extend %font-add;
+  @include font($height: 3.8rem, $size: 3rem, $weight: 700);
+  color: $color-dark;
+  text-align: start;
+  transform: translateY(-100px) translateX(20px);
+}
+
+.largus-add__name::placeholder {
+  @extend %font-add;
+  @include font($height: 3.8rem, $size: 3rem, $weight: 700);
+  color: $color-dark;
+  text-align: start;
+  transform: translateX(20px);
+}
+
+.largus-add__price::placeholder {
+  @extend %font-add;
+  @include font($height: 3.8rem, $size: 3rem, $weight: 700);
+  color: $color-dark;
+  text-align: start;
+  transform: translateX(20px);
+}

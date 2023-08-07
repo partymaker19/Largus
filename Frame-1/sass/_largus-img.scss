@@ -1,0 +1,16 @@
+.largus-img {
+  margin-bottom: 35px;
+  &__block {
+    position: relative;
+    width: 100%;
+    height: 605px;
+    overflow: hidden;
+  }
+  h1 {
+    position: absolute;
+    left: 1046px;
+    top: 88px;
+    @include font($height: 7.6rem, $size: 6rem, $weight: 400);
+    color: white;
+  }
+}

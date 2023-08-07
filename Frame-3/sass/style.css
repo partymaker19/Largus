@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@500&family=Roboto&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+section,
+main,
+footer,
+header,
+article {
+  display: block;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 1500px;
+  margin: 0 auto;
+}
+.header img {
+  margin: 9px 0 6px 108px;
+}
+
+.entrance {
+  width: 1500px;
+  margin: 0 auto;
+}
+.entrance__img-block {
+  position: relative;
+  width: 100%;
+  height: 605px;
+  overflow: hidden;
+}
+.entrance__form-up {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.8rem;
+  background: #f39c36;
+  color: #495966;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 68px;
+}
+.entrance__form-down {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.8rem;
+  background: #f39c36;
+  color: #495966;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 57px;
+}
+.entrance__form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+  padding: 97px 108.98px 52px 107px;
+}
+.entrance__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 322px;
+  top: 107px;
+  width: 855px;
+  margin: 0 auto;
+  background: rgba(163, 188, 208, 0.86);
+  border-radius: 10px;
+}
+.entrance__login {
+  display: flex;
+  gap: 25px;
+}
+.entrance__password {
+  display: flex;
+  gap: 25px;
+}
+.entrance__input {
+  width: 362.02px;
+  border: none;
+  border-bottom: 2px solid #495966;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+  font-size: 3.5rem;
+}
+.entrance__input-signin {
+  border: none;
+  border-bottom: 2px solid #495966;
+  background-color: transparent;
+  color: #495966;
+  outline: none;
+  font-size: 3.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+.entrance__input-signin:hover {
+  color: rgba(73, 89, 102, 0.5);
+}
+
+.entrance__form-up, .entrance__form-down {
+  font-family: "Gelasio", Verdana, sans-serif;
+}/*# sourceMappingURL=style.css.map */

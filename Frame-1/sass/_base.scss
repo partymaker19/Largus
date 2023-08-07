@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@500&family=Roboto&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+section,
+main,
+footer,
+header,
+article {
+  display: block;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}

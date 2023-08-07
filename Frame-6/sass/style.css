@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@500&family=Roboto&display=swap");
+.header {
+  display: flex;
+  width: 1500px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.header__list {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.2rem;
+  display: flex;
+  gap: 41px;
+  list-style: none;
+  align-self: center;
+}
+.header__last-child {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-left: 558px;
+}
+.header__list-link {
+  color: #495966;
+  text-decoration: none;
+}
+.header__list-link:hover {
+  color: rgba(73, 89, 102, 0.5);
+  text-decoration: none;
+}
+.header__last-link {
+  color: rgba(73, 89, 102, 0.5);
+  text-decoration: none;
+}
+.header__last-link:hover {
+  color: #495966;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+section,
+main,
+footer,
+header,
+article {
+  display: block;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.applic__block, .applic h1, .header__list, .header__last-child {
+  font-family: "Gelasio", Verdana, sans-serif;
+}
+
+.applic h1 {
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.3rem;
+  color: #495966;
+  margin-left: 125px;
+  padding-top: 124px;
+  padding-bottom: 66px;
+}
+.applic__main-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 73px;
+}
+.applic__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 284px;
+  height: 62px;
+  background: rgba(163, 188, 208, 0.5);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #495966;
+}
+.applic__first-block {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 16px;
+}
+.applic__second-block {
+  display: flex;
+  gap: 35px;
+}
+.applic__del {
+  color: #495966;
+  text-decoration: none;
+}
+.applic__del:hover {
+  color: rgba(73, 89, 102, 0.5);
+}
+.applic__change {
+  color: #495966;
+  text-decoration: none;
+}
+.applic__change:hover {
+  color: rgba(73, 89, 102, 0.5);
+}
+
+.orange {
+  background: #f39c36;
+}/*# sourceMappingURL=style.css.map */
