@@ -1,0 +1,123 @@
+@import "../../sass/mixin";
+@import "../../sass/constants";
+@import "../../sass/placeholder";
+.largus-change {
+  h1 {
+    @extend %font-add;
+    @include font($height: 6.3rem, $size: 5rem, $weight: 700);
+    color: $color-dark;
+    margin-left: 125px;
+    padding-top: 124px;
+    padding-bottom: 66px;
+  }
+  &__img-block {
+    position: relative;
+    width: 1237px;
+    height: 586px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  &__type {
+    position: absolute;
+    left: 52px;
+    top: 50px;
+    @include font($height: 5.1rem, $size: 4rem, $weight: 400);
+    color: white;
+    width: 550px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-size: 3.5rem;
+  }
+  &__litr {
+    position: absolute;
+    left: 52px;
+    top: 165px;
+    @include font($height: 3.2rem, $size: 2.5rem, $weight: 400);
+    color: white;
+    width: 550px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-size: 3.5rem;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 52px;
+    top: 224px;
+    @extend %font-add;
+    @include font($height: 3.2rem, $size: 2.5rem, $weight: 600);
+    color: white;
+  }
+  &__price {
+    position: absolute;
+    left: 52px;
+    top: 440px;
+    @include font($height: 5.1rem, $size: 4rem, $weight: 600);
+    color: #f39c36;
+    width: 550px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    font-size: 3.5rem;
+  }
+  &__save-p {
+    @extend %font-add;
+    @include font($height: 3.8rem, $size: 3rem, $weight: 600);
+    text-align: center;
+    margin-bottom: 68px;
+    margin-top: 55px;
+  }
+
+  &__save {
+    color: $color-dark;
+  }
+  &__save:hover {
+    color: $color-gray;
+  }
+  &__input {
+    width: 550px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-size: 3.5rem;
+  }
+
+  &__input-save {
+    border: none;
+    border-bottom: 2px solid #495966;
+    background-color: transparent;
+    color: $color-dark;
+    outline: none;
+    font-size: 3.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  &__input-save:hover {
+    color: $color-gray;
+  }
+  &__input-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 68px;
+  }
+}
+
+::placeholder {
+  color: white;
+}
+
+.largus-change__price::placeholder {
+  color: #f39c36;
+}

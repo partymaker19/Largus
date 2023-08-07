@@ -1,0 +1,38 @@
+@import "../../sass/mixin";
+@import "../../sass/constants";
+.header {
+  display: flex;
+  width: 1500px;
+  margin: 0 auto;
+  justify-content: space-around;
+  &__list {
+    @extend %font-add;
+    @include font($height: 3.2rem, $size: 2.5rem, $weight: 700);
+    display: flex;
+    gap: 41px;
+    list-style: none;
+    align-self: center;
+  }
+  &__last-child {
+    @extend %font-add;
+    @include font($height: 3.2rem, $size: 2.5rem, $weight: 700);
+    margin-left: 558px;
+  }
+  &__list-link {
+    color: $color-dark;
+    text-decoration: none;
+  }
+  &__list-link:hover {
+    color: $color-gray;
+    text-decoration: none;
+  }
+
+  &__last-link {
+    color: $color-gray;
+    text-decoration: none;
+  }
+  &__last-link:hover {
+    color: $color-dark;
+    text-decoration: none;
+  }
+}

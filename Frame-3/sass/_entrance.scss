@@ -1,0 +1,81 @@
+@import "../../sass/constants";
+.entrance {
+  width: 1500px;
+  margin: 0 auto;
+  &__img-block {
+    position: relative;
+    width: 100%;
+    height: 605px;
+    overflow: hidden;
+  }
+
+  &__form-up {
+    @extend %font-add;
+    @include font($height: 3.8rem, $size: 3rem, $weight: 600);
+    background: #f39c36;
+    color: $color-dark;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 68px;
+  }
+  &__form-down {
+    @extend %font-add;
+    @include font($height: 3.8rem, $size: 3rem, $weight: 600);
+    background: #f39c36;
+    color: $color-dark;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 57px;
+  }
+  &__form-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 43px;
+    padding: 97px 108.98px 52px 107px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 322px;
+    top: 107px;
+    width: 855px;
+    margin: 0 auto;
+    background: rgba(163, 188, 208, 0.86);
+    border-radius: 10px;
+  }
+
+  &__login {
+    display: flex;
+    gap: 25px;
+  }
+  &__password {
+    display: flex;
+    gap: 25px;
+  }
+  &__input {
+    width: 362.02px;
+    border: none;
+    border-bottom: 2px solid #495966;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    font-size: 3.5rem;
+  }
+  &__input-signin {
+    border: none;
+    border-bottom: 2px solid #495966;
+    background-color: transparent;
+    color: $color-dark;
+    outline: none;
+    font-size: 3.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 26px;
+  }
+  &__input-signin:hover {
+    color: $color-gray;
+  }
+}
